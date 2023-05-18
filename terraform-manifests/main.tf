@@ -22,7 +22,7 @@ provider "azurerm" {
   }
 }
 
-# Create our Virtual Network - Jonnychipz-VNET
+# Create our Virtual Network -Comen
 resource "azurerm_virtual_network" "vnet" {
   name                = "shubhrovnet"
   address_space       = ["10.0.0.0/16"]
