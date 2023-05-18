@@ -22,6 +22,7 @@ provider "azurerm" {
 }
 
 # Create our Virtual Network -Comen
+#comiit
 resource "azurerm_virtual_network" "vnet" {
   name                = "shubhrovnet"
   address_space       = ["10.0.0.0/16"]
