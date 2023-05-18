@@ -15,4 +15,4 @@ stages:
   - job: Build
     displayName: Build Job
     pool:
-      name: Default
+      vmImage: 'ubuntu-latest'
